@@ -3,7 +3,7 @@ cask "mermaid-preview-cli" do
   name "mermaid-preview-cli"
   desc "CLI tool for previewing Mermaid diagrams"
   homepage "https://github.com/mxcoppell/mermaid-preview-cli"
-  version "1.0.2"
+  version "1.0.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,11 +14,11 @@ cask "mermaid-preview-cli" do
   on_macos do
     on_intel do
       url "https://github.com/mxcoppell/mermaid-preview-cli/releases/download/v#{version}/mermaid-preview-cli_#{version}_darwin_amd64.tar.gz"
-      sha256 "9756f11936768a9c9f6b753daef7ecf8026726818662095b872de66ffe8cbfa0"
+      sha256 "063c6742226a5f6cd53ef8a7d9a592fb0ad41415281a65abada070ba4646924b"
     end
     on_arm do
       url "https://github.com/mxcoppell/mermaid-preview-cli/releases/download/v#{version}/mermaid-preview-cli_#{version}_darwin_arm64.tar.gz"
-      sha256 "5a32009b15174890d1a308ee865ae357c76316eec33390b53068dc0cd771348b"
+      sha256 "1f0cd3a9d058bbac359b987895b080c094cecc86f137fbe5729746b492760a33"
     end
   end
 
