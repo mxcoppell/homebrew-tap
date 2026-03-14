@@ -5,24 +5,26 @@
 class MermaidPreviewCli < Formula
   desc "CLI tool for previewing Mermaid diagrams"
   homepage "https://github.com/mxcoppell/mermaid-preview-cli"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/mxcoppell/mermaid-preview-cli/releases/download/v1.0.0/mermaid-preview-cli_1.0.0_darwin_amd64.tar.gz"
-    sha256 "e98a03e3ccf42a9b245338576bf09c0cf9fdbc546b0043b721d97760fbe9b547"
+    url "https://github.com/mxcoppell/mermaid-preview-cli/releases/download/v1.0.1/mermaid-preview-cli_1.0.1_darwin_amd64.tar.gz"
+    sha256 "8ad1c802854a9f57d50006bf36b299aedd303ad7b12759bd1eaac9819cac1b02"
 
     define_method(:install) do
       bin.install "mermaid-preview-cli"
+      (share/"mermaid-preview-cli").install "skills/mermaid-preview-cli.md"
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/mxcoppell/mermaid-preview-cli/releases/download/v1.0.0/mermaid-preview-cli_1.0.0_darwin_arm64.tar.gz"
-    sha256 "30fb9f290cdd7826ab3bfc4b81bab042cbee808e6a315e07503833d15465ca54"
+    url "https://github.com/mxcoppell/mermaid-preview-cli/releases/download/v1.0.1/mermaid-preview-cli_1.0.1_darwin_arm64.tar.gz"
+    sha256 "05463e1a9a8dedfece6ef17c86c77f387f80e89cbc4493f9caad2411e6b07977"
 
     define_method(:install) do
       bin.install "mermaid-preview-cli"
+      (share/"mermaid-preview-cli").install "skills/mermaid-preview-cli.md"
     end
   end
 end
