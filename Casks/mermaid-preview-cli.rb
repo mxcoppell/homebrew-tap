@@ -14,11 +14,11 @@ cask "mermaid-preview-cli" do
   on_macos do
     on_intel do
       url "https://github.com/mxcoppell/mermaid-preview-cli/releases/download/v#{version}/mermaid-preview-cli_#{version}_darwin_amd64.tar.gz"
-      sha256 "a4327c856008b87c0a673a6e8fdeb97319d1ef985de9c9e1058c3f40ff4f03f6"
+      sha256 "c9b357f3c4772afc03268d8786bfa5f9511aa8d8216a22f4370a5b9b59001d87"
     end
     on_arm do
       url "https://github.com/mxcoppell/mermaid-preview-cli/releases/download/v#{version}/mermaid-preview-cli_#{version}_darwin_arm64.tar.gz"
-      sha256 "309649ca960a15a10e39bf183bf97b05228e8a4e89c9f773becc9165fb86bbaf"
+      sha256 "9ab13f1d84fdf8ac96f6cb81be508a3f299f5ed2d2cce9da53b7ccbcf66d76d9"
     end
   end
 
