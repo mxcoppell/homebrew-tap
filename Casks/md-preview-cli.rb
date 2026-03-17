@@ -3,7 +3,7 @@ cask "md-preview-cli" do
   name "md-preview-cli"
   desc "CLI tool for previewing markdown files in a native window"
   homepage "https://github.com/mxcoppell/md-preview-cli"
-  version "1.1.0"
+  version "1.1.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,11 +14,11 @@ cask "md-preview-cli" do
   on_macos do
     on_intel do
       url "https://github.com/mxcoppell/md-preview-cli/releases/download/v#{version}/md-preview-cli_#{version}_darwin_amd64.tar.gz"
-      sha256 "50751cdb9755dc196d161ee06a1b5c9a6ee2d6af307591e667c0b838b22f3975"
+      sha256 "f4d4e4a45038f15dd7e60bbb1b82187782995a8e24f3373d0b902a1f4318e7a0"
     end
     on_arm do
       url "https://github.com/mxcoppell/md-preview-cli/releases/download/v#{version}/md-preview-cli_#{version}_darwin_arm64.tar.gz"
-      sha256 "4ba5b079fab266cce2eafe9f71f5bc62cd075c0d85689aaa7cdb91d1588eabe0"
+      sha256 "b78ae4b8b6a2ef4bc391882be5437a77956e9614f34a44c9d71496a244ada730"
     end
   end
 
