@@ -3,7 +3,7 @@ cask "mdp" do
   name "mdp"
   desc "CLI tool for previewing markdown files in a native window"
   homepage "https://github.com/mxcoppell/mdp"
-  version "1.2.1"
+  version "1.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,11 +14,11 @@ cask "mdp" do
   on_macos do
     on_intel do
       url "https://github.com/mxcoppell/mdp/releases/download/v#{version}/mdp_#{version}_darwin_amd64.tar.gz"
-      sha256 "0d06ba3e88397cc72b5a07520c870d9b3891a9bb1db6e4e98fdbdb59729b7c46"
+      sha256 "af6b2b38a79874d2923eec8d2ae2655a193bdf28825c3868c1c65c34e8abd2cd"
     end
     on_arm do
       url "https://github.com/mxcoppell/mdp/releases/download/v#{version}/mdp_#{version}_darwin_arm64.tar.gz"
-      sha256 "24249ec7db95761e435836456cbcc8a73e6d25b4aec991891b74f47186104d4b"
+      sha256 "c85e32b23547da8df752b604a3a263429034b21f6a54ee87252a2b40b8332a8b"
     end
   end
 
